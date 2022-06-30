@@ -1,0 +1,24 @@
+footer{
+    .footer-top{
+        padding-bottom: 50px;
+        background-color: #2A3336;
+        display: flex;
+        .title{
+            font-weight: bolder;
+            font-size: 20px;
+        }
+    }
+    li{
+        list-style: none;
+        margin-bottom: 5px;
+        i{
+            color:#01B1D7;
+        }
+    }
+    i{
+        color: white;
+    }
+    .copyright{
+        background-color: #1F2627;
+    }
+}

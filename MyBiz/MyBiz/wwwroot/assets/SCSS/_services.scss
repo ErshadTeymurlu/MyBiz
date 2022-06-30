@@ -1,0 +1,29 @@
+#services{
+    height: 700px;
+    background-color: #F2FDFF;
+    .title{
+        font-weight: bolder;
+        font-size: 40px;
+        color: rgba(0, 0, 0, 0.719);
+    }
+    .sub-title{
+        color: rgba(0, 0, 0, 0.692);
+        margin-bottom: 30px;
+    }
+    .row{
+        .col-6 {
+            border-radius: 8px;
+            background-color: white;
+            i{
+                color: #01B1D7;
+                font-size: 40px;
+            }
+            p.service-item-subtitle{
+                margin-bottom: 0;
+            }
+            div.all-contains{
+                padding-top: 20px;
+            }
+        }
+    }
+}

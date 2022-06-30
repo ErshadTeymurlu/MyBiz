@@ -1,0 +1,30 @@
+#team{
+    height: 700px;
+    .container{
+        .col-6{
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0 0 11px grey;
+            border-radius: 8px;
+            padding: 30px;
+        }
+        .worker-image{
+            img{
+                border-radius: 100%;
+                height: 100px;
+            }
+        }
+        .top-titles{
+            .title{
+                font-weight: bolder;
+                font-size: 30px;
+            }
+            .sub-title{
+                margin-bottom: 40px;
+            }
+        }
+        .worker-social-platforms{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}

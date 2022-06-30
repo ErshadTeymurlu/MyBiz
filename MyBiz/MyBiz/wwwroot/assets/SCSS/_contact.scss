@@ -1,0 +1,22 @@
+#contact{
+    height: 1300px;
+    .title{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .sub-title{
+        margin-bottom: 30px;
+    }
+    .contact-wrapper{
+        box-shadow: 0 0 11px grey;
+        .contact-top{
+            border-bottom: 1px solid gray;
+            .contact{
+                i{
+                    font-size: 30px;
+                    color: #01B1D7;
+                }
+            }
+        }
+    }
+}

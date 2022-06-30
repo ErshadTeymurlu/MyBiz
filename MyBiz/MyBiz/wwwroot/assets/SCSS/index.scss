@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+@import "./_nav";
+@import "./_services";
+@import "./_team";
+@import "./_contact";
+@import "./_footer";
+header{
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    .header-content{
+        color: white;
+        margin: auto;
+        h1{
+            font-weight: bold;
+            font-size: 50px;
+        }
+        p{
+            margin: 30px 0px;
+            width: 1000px;
+        }
+    }
+}
